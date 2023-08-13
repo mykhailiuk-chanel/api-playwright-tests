@@ -1,0 +1,20 @@
+{
+  "name": "demo-playwright-api",
+  "version": "1.0.0",
+  "description": "Playwright API testing example ",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "npx playwright test --config ./api.config.js"
+  },
+  "keywords": [
+    "playwright",
+    "api",
+    "e2e",
+    "testing"
+  ],
+  "author": "Vitalii Mykhailiuk <vmykhailiuk.chanel@gmail.com> (https://instagram.com/vitaliy_mihayilyuk)",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.0"
+  }
+}
